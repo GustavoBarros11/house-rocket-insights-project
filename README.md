@@ -1,11 +1,11 @@
 # **House Rocket Insights Project**
 **Data Analysis Project**
 
-![jpg](img/352.jpeg)
+![jpg](img/352.jpg)
 
 This is an insight project where a data base from house sales in the King County (USA) was used to generate insights to help the CEO of a American real-state agency on making decisions about buying and selling properties. The kc_house_data can be found on [Kaggle](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction).
 
-Here, you can find the final dashboard for this project: [House Rocket App]()
+Here, you can find the final dashboard for this project: [House Rocket Dashboard APP]()
 
 # Table of Contents
 - [**House Rocket Insights Project**](#house-rocket-insights-project)
@@ -114,16 +114,16 @@ Planning the look and feel of what will be delivered to the CEO as a final produ
 ### Hyphotesis Mind-Map:
 **ID** | **Description** | **Conclusion**
 --- | --- | ---
-`H01` |	Properties that are waterfront are, in average, 30% more expensive.	| TRUE
-`H02` |	Properties built before 1955 are, in average, 50% less expensive.	| FALSE
-`H03` |	Properties without basement have a sqrt_lot 50% bigger than the ones with basement. |	TRUE
-`H04` |	Properties with higher number of bedrooms are, in average, 10% more expensive. |	FALSE
-`H05` |	Properties that were never renovated are, in average, 20% less expensive.	| TRUE
-`H06` |	Older properties that were never renovated are 40% less expensive.	| FALSE
-`H07` |	Properties that were renovated recently are 10% more expensive.	| TRUE
-`H08` |	Properties in bad condition but with that are waterfront, are 10% more expensive. |	TRUE
-`H09` |	The YoY (Year over Year) growth of the price of the properties is of 10%.	| FALSE
-`H10` |	The MoM (Month over Month) growth of the price of the properties is 15%.	| FALSE
+`H01` |	Imóveis que possuem vista para o mar, são 20% mais caros, na média.	| FALSE
+`H02` |	Imóveis com data de construção menor que 1955, são 50% mais baratos, na média.	| FALSE
+`H03` |	Imóveis sem porão - possuem área total (sqf|t_lot) - são 40% maiores do que os imóveis com porão. |	FALSE
+`H04` |	O crescimento do preço dos imóveis YoY (Year over Year) é de 10%. |	FALSE
+`H05` |	Imóveis com 3 banheiros tem um crescimento de MoM (Month over Month) médio de 15%.	| FALSE
+`H06` |	Imóveis com mais números de quarto são em média 10% mais caros do que outros imóveis com 1 unidade de quartos a menos, em média.	| FALSE
+`H07` |	A variação média no preço dos imóveis entre as categorias da variável *condition*, indicam um acréscimo médio de 20% de uma para outra.	| TRUE
+`H08` |	Imóveis em más condições mas COM vista para o mar, são em média 40% mais caros do que aqueles em mesmas condições mas SEM vista para o mar. |	FALSE
+`H09` |	Para cada nível da variável 'grade', o preço médio dos imóveis aumenta em 18%.	| FALSE
+`H10` |	O crescimento WoW (Week over Week) do preço das propriedades é de 0.1%, na média.	| TRUE
 
 
 # Conclusion
