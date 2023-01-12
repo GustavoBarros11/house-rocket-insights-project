@@ -1,6 +1,4 @@
 # **House Rocket Insights Project**
-**Data Analysis Project**
-
 ![jpg](img/352.jpg)
 
 This is an insight project where a data base from house sales in the King County (USA) was used to generate insights to help the CEO of a American real-state agency on making decisions about buying and selling properties. The kc_house_data can be found on [Kaggle](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction).
